@@ -24,10 +24,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-xfid^s0_9kqxb_kwa-ly6cb#ye$v41e1i!dep*@j@-0ywhj2bx'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['*']
-CSRF_TRUSTED_ORIGINS = ['*']
+ALLOWED_HOSTS = ['plum-advertisement-production.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['plum-advertisement-production.up.railway.app']
 
 
 # Application definition
